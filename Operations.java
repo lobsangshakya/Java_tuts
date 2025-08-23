@@ -25,6 +25,7 @@ public class Operations {
             System.out.print("Enter c: ");
             int c = sc.nextInt();
             System.out.println(Operations(a, b, c));
+        // Condition State - if else if 
         // if (c == 1){
         //     System.out.println(a+b);
         // }
