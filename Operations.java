@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Operations {
+    // Switch_Case
         static int Operations(int a, int b, int c){
             switch (c) {
                 case 1:
