@@ -8,7 +8,6 @@ public class functions1 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a value: ");
         int a = sc.nextInt();
-        // System.out.println(power(a));
         System.out.println(power(a));
         sc.close();
     }
