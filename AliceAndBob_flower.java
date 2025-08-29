@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
 class AliceAndBob_flower {
     public long flowerGame(int n, int m) {
@@ -12,18 +12,20 @@ class AliceAndBob_flower {
 
         return result1 + result2;
     }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    // With Inputs from the users
+    // public static void main(String[] args) {
+    //     Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter value of n: ");
-        int n = sc.nextInt();
+    //     System.out.print("Enter value of n: ");
+    //     int n = sc.nextInt();
 
-        System.out.print("Enter value of m: ");
-        int m = sc.nextInt();
+    //     System.out.print("Enter value of m: ");
+    //     int m = sc.nextInt();
 
-        AliceAndBob_flower obj = new AliceAndBob_flower();
-        long result = obj.flowerGame(n, m);
+    //     AliceAndBob_flower obj = new AliceAndBob_flower();
+    //     long result = obj.flowerGame(n, m);
 
-        System.out.println("Result: " + result);
-    }
+    //     System.out.println("Result: " + result);
+    // }
 }
+
