@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class AliceAndBob_flower {
     public long flowerGame(int n, int m) {
         long n_num_even = n / 2;
@@ -9,5 +11,19 @@ class AliceAndBob_flower {
         long result2 = n_num_even * m_num_odd;
 
         return result1 + result2;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter value of n: ");
+        int n = sc.nextInt();
+
+        System.out.print("Enter value of m: ");
+        int m = sc.nextInt();
+
+        AliceAndBob_flower obj = new AliceAndBob_flower();
+        long result = obj.flowerGame(n, m);
+
+        System.out.println("Result: " + result);
     }
 }
