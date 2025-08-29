@@ -15,10 +15,10 @@ class AliceAndBob_flower {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter value of n: ");
+        System.out.print("Enter value of n: ");
         int n = sc.nextInt();
 
-        System.out.println("Enter value of m: ");
+        System.out.print("Enter value of m: ");
         int m = sc.nextInt();
 
         AliceAndBob_flower obj = new AliceAndBob_flower();
@@ -27,4 +27,3 @@ class AliceAndBob_flower {
         System.out.println("Result: " + result);
     }
 }
-
